@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope');
+
+*, *::after { box-sizing: border-box; }
+
+* { 
+	margin: 0;
+	padding: 0;
+	font: inherit;
+	font-family: Manrope;
+	line-height: 1.8;
+}
+
+:root {
+	--red: hsl(14, 86%, 42%);
+	--green: hsl(159, 69%, 38%);
+	--rose-50: hsl(20, 50%, 98%);
+	--rose-100: hsl(13, 31%, 94%);
+	--rose-300: hsl(14, 25%, 72%);
+	--rose-400: hsl(7, 20%, 60%);
+	--rose-500: hsl(12, 20%, 44%);
+	--rose-900: hsl(14, 65%, 9%);
+
+	--font-weight-400: 400;
+	--font-weight-600: 600;
+	--font-weight-700: 700;
+}
+
+body {
+	min-height: 100vh;
+	overflow-y: clip;
+}
+
+main {
+	width: 1225px;
+	margin: 100px;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	border-radius: 5%;
+}
+
+.card-container {
+	margin-top: 40px;
+	display: flex;
+}
+
+.card {
+	width: 260px;
+	height: 350px;
+}
+
+.add-to-cart-button {
+	display: block;
+	width: 150px;
+	height: 40px;
+	background-color: white;
+	border: 1px solid var(--rose-300);
+	border-radius: 5%;
+	margin: 0px auto;
+	position: relative;
+	bottom: 20px;
+}
+
+.fw-700 { font-weight: var(--font-weight-700); }
+
+.fw-400 { font-weight: var(--font-weight-400); }
+
+.fw-600 { font-weight: var(--font-weight-600); }
+
+.red { color: var(--red); }
+
+.rose-500 { color: var(--rose-500); }
+
+.inline-block { display: inline-block; }
+
+.pr-5 { padding-right: 5px; }
+.pt-5 { padding-top: 5px; }
+.fs-25 { font-size: 25px; }

@@ -1,4 +1,4 @@
-[
+const data = [
     {
        "image": {
             "thumbnail": "./assets/images/image-waffle-thumbnail.jpg",
@@ -32,7 +32,7 @@
         "category": "Macaron",
         "price": 8.00
      },
-     {
+          {
         "image": {
             "thumbnail": "./assets/images/image-tiramisu-thumbnail.jpg",
             "mobile": "./assets/images/image-tiramisu-mobile.jpg",
